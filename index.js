@@ -16,7 +16,7 @@ app.use(studentRouter)
 
 db();
 
-port=process.env.port||8000
+const port=process.env.port||8000
 
 app.listen(port,()=>{
     console.log("port is running",port)
